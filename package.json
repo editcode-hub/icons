@@ -1,0 +1,51 @@
+{
+  "name": "icons",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "load-icons": "bun scripts/load-icons.ts",
+    "icons": "bun run load-icons && svgr ./src/icons_sources",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^3",
+    "@storybook/addon-essentials": "^8.6.12",
+    "@storybook/addon-onboarding": "^8.6.12",
+    "@storybook/blocks": "^8.6.12",
+    "@storybook/experimental-addon-test": "^8.6.12",
+    "@storybook/react": "^8.6.12",
+    "@storybook/react-vite": "^8.6.12",
+    "@storybook/test": "^8.6.12",
+    "@types/bun": "latest",
+    "@vitest/browser": "^3.1.2",
+    "@vitest/coverage-v8": "^3.1.2",
+    "eslint-plugin-storybook": "^0.12.0",
+    "playwright": "^1.52.0",
+    "prettierrc": "^0.0.0-5",
+    "storybook": "^8.6.12",
+    "vitest": "^3.1.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@svgr/cli": "^8.1.0",
+    "@types/fs-extra": "^11.0.4",
+    "@types/listr": "^0.14.9",
+    "@types/react": "^19.1.2",
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
+    "eslint": "^9.25.1",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-prettier": "^5.2.6",
+    "fs-extra": "^11.3.0",
+    "install": "^0.13.0",
+    "listr": "^0.14.3",
+    "prettier": "^3.5.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "ts-node": "^10.9.2"
+  }
+}
