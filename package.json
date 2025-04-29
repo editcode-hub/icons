@@ -3,8 +3,8 @@
   "module": "src/index.ts",
   "type": "module",
   "scripts": {
-    "load-icons": "bun scripts/load-icons.ts",
-    "icons": "bun run load-icons && svgr ./src/icons_sources",
+    "load-icons": "bun scripts/process.ts",
+    "icons": "bun run load-icons && svgr ./src/svg",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
