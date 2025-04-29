@@ -1,5 +1,5 @@
 import { SvgIcon, type SvgIconProps } from "../ui";
-const IconAddAlert = (props: SvgIconProps) => (
+const IconFolderStroke = (props: SvgIconProps) => (
   <SvgIcon width={24} height={24} fill="none" viewBox="0 0 24 24" {...props}>
     <g clipPath="url(#a)">
       <path
@@ -15,4 +15,4 @@ const IconAddAlert = (props: SvgIconProps) => (
     </defs>
   </SvgIcon>
 );
-export default IconAddAlert;
+export default IconFolderStroke;

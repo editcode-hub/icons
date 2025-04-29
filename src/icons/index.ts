@@ -1,1 +1,2 @@
-export { default as AddAlert } from "./AddAlert";
+export { default as FolderFill } from "./FolderFill";
+export { default as FolderStroke } from "./FolderStroke";
