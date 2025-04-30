@@ -1,3 +1,4 @@
+import React from "react";
 import * as icons from "../icons";
 
 export default {
@@ -5,12 +6,14 @@ export default {
   component: icons,
 };
 
-const Template = () => (
-  <>
-    {Object.values(icons).map((Icon, index) => (
-      <Icon key={index} height={48} width={48} />
-    ))}
-  </>
-);
+const Template = () => {
+  return (
+    <>
+      {Object.values(icons).map((Icon, index) => (
+        <Icon key={index} height={48} width={48} />
+      ))}
+    </>
+  );
+};
 
 export const Playground = Template.bind({});
