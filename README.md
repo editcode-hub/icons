@@ -9,7 +9,10 @@ A perfectly rounded icon library made for designers, developers, and pretty much
 ### 1. Installation
 
 Install with npm:
-`npm install --save @editcode-hub/icons`
+
+```
+npm install --save @editcode-hub/icons
+```
 
 ### 2. Usage
 
