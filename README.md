@@ -1,4 +1,4 @@
-# editcode-hub/icons
+# @editcode-hub/icons
 
 A perfectly rounded icon library made for designers, developers, and pretty much everyone. Explore all of our icons at [editcode.dev](http://editcode.dev/hub/icons "editcode.dev").
 
