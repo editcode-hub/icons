@@ -9,7 +9,7 @@
     "email": "itsevgenyfomin@gmail.com",
     "url": "https://evgenyfomin.com"
   },
-  "version": "1.0.11",
+  "version": "1.0.13",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "typings": "dist/icons.d.ts",
